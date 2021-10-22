@@ -1,11 +1,9 @@
 
 console.log('bellaaaaaaa')
 
-const menu = document.querySelector('.hamburger-menu');
+const menu = document.querySelector('.fa-bars');
 
 menu.addEventListener('click', function() {
-    console.log('click');
-
-
+    hamburgerMenu.classList.add('active');
 
 });
