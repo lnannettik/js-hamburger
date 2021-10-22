@@ -1,9 +1,17 @@
 
 console.log('bellaaaaaaa')
 
-const menu = document.querySelector('.fa-bars');
+const click = document.querySelector('.fa-bars');
 
-menu.addEventListener('click', function() {
-    hamburgerMenu.classList.add('active');
+const close = document.querySelector('.close');
 
+const menu = document.querySelector('.hamburger-menu');
+
+click.addEventListener('click', function () {
+    menu.classList.add('active');
 });
+
+close.addEventListener('click', function () {
+    menu.classList.remove('active');
+});
+
